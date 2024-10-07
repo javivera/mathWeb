@@ -1,0 +1,1319 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Math]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Math</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 07 Oct 2024 16:11:32 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 07 Oct 2024 16:11:19 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Contraejemplos]]></title><description><![CDATA[ 
+ <br><br><br><br>Remark 11 (Contraejemplo II).
+Esto no vale en dimension infinita  tenemos dos normas no equivalentes<br>
+Considerando la funcion  se puede ver facilmetend
+<br>
+<br><br>Remark 11 (Contraejemplo II).
+Esto no vale en dimension infinita  tenemos dos normas no equivalentes<br>
+Considerando la funcion  se puede ver facilmetend
+<br><br><br><br>Example 5 (Contraejemplo I).
+ es facil ver que  es producto interno con norma inducida . Restaria ver que no es completo
+<br><br><br><br>Example (Contraejemplo 1).
+Sea  ortonormal y  subsucesion. Se puede ver que . Por ende encontramos un  que no se puede escribir como dicha suma
+<br>
+<br><br>Example (Contraejemplo 2).
+Hilbert que no es separable.  
+Proof
+
+<br>Es facil ver que es Hilbert con 
+<br>Sea<br>
+Estan en el . Ademas . Si tuviese un denso para cada  me armo una bola de radio mas chico que 2 cada una de estas bolas tiene algun elemento del denso numerable, pero no se intersecan entre si. Absurdo porque tengo no numerables bolas.
+
+
+]]></description><link>Functional Analysis/Theory/Contraejemplos.html</link><guid isPermaLink="false">Functional Analysis/Theory/Contraejemplos.md</guid><pubDate>Tue, 24 Sep 2024 16:29:00 GMT</pubDate></item><item><title><![CDATA[Teórico 1]]></title><description><![CDATA[ 
+ <br>Lemma (Todo normado es metrico).
+Sea  espacio vectorial con norma . Sea  por  entonces<br>
+Equivalentemente todo  espacio vectorial normado es metrico con la metrica estandar
+<br>Theorem.
+Sea  espacio vectorial con norma . Sea ,  con  y  entonces:
+
+<br>
+<br>
+<br>
+<br>
+
+<br>Proof
+Sale todo usando 1. y 1. sale usando 
+<br>Remark.
+Esto nos dice que en un espacio vectorial normado, la norma, la suma y producto por escalar son continuas.
+<br><br>Definition (Equivalence of norms).
+Sea  espacio vectorial y   normas en   decimos que son equivalentes si 
+<br>Remark.
+La equivalencia de normas es una relacion de equivalencia
+<br><br>Lemma.
+Let  be a vector space with  and  associated metrics. Suppose  such that . Let , then:
+
+<br> in  in   
+<br> is Cauchy in  is Cauchy in  
+
+<br><br>Proof
+Trivial using the inequality
+<br><br>Corollary.
+Sea  espacio vectorial  y  normas equivalentes en  con  metricas asociadas. Sea  entonces:<br>
+1. en  en <br>
+2. es de cauchy en  es de cauchy en <br>
+3.  es completo  es completo   
+<br>Proof
+Usando <a data-href="#^650441" href="about:blank#^650441" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^650441</a><a data-href="#^650441" href="about:blank#^650441" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Lemma 6</a> y que equivalencia de normas
+<br><br>Theorem (Continua en compacto tiene maximo y minimo).
+Sea  metrico compacto y  continua entonces  ( acotada)<br>
+En particular si  los numeros<br>
+Existen y son finitos. Mas aun<br>
+
+<br><br>Theorem.
+Sea  espacio vectorial normado de dim finita con norma . Sea  base para  y sea  entonces  y  son equivalentes
+<br>Proof
+
+<br>
+<br>
+<br>
+<br>Ver que es continua 
+<br> es compacto
+<br>Existe  minimo porque  <a data-href="#^8b9dd8" href="about:blank#^8b9dd8" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^8b9dd8</a><a data-href="#^8b9dd8" href="about:blank#^8b9dd8" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Continua en compacto tiene maximo y minimo</a>
+<br> porque  es base
+<br>Si  
+<br> por ser m minimo
+<br>Si no  luego  por el caso de arriba
+
+<br><br>Corollary.
+En dimension finita todas las normas son equivalentes
+<br>Proof
+Equivalencia de normas es relacion de equivalencia entonces es transitiva
+<br>Remark (Contraejemplo II).
+Esto no vale en dimension infinita  tenemos dos normas no equivalentes<br>
+Considerando la funcion  se puede ver facilmetend
+<br>Lemma.
+X espacio vectorial de dim finita y  y  la metrica asociada, entonces  es completo (Banach)
+<br>Proof
+
+<br>Ya sabemos que es metrico (dim finita )
+<br> suc de cauchy
+<br>
+<br> tq 
+<br>Fijando  tenemos 
+<br> es de cauchy en un completo tiene limite  (vale para cada )
+<br> tq  
+<br> y  ( por ser combinacion lineal de elementos de la base 
+<br>para  sucede 
+<br> converge por lo tanto  es de completo
+
+<br>Corollary.
+Todo espacio vectorial de dim finita es completo con la metrica asociada a cualquier norma
+<br>Proof
+
+<br> completa  completa por <a data-href="#^cd6dc0" href="about:blank#^cd6dc0" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^cd6dc0</a><a data-href="#^cd6dc0" href="about:blank#^cd6dc0" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Corollary 7</a> y  completa <a data-href="#^910368" href="about:blank#^910368" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^910368</a><a data-href="#^910368" href="about:blank#^910368" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Lemma 12</a>
+
+<br><br>Theorem.
+Sea  metrico y  entonces:
+
+<br> completo  cerrado
+<br> completo  ( completo  cerrado)
+<br>Si  es compacto   es cerrado y acotado
+<br>Cerrado y acotado en  compacto
+
+<br>Proof<br><br>Corollary.
+Si  subespacio vectorial de dim finita   es cerrado
+<br>Proof
+
+<br>Por ser  espacio vectorial es normado (norma estandar) por ser espacio vectorial normado es metrico <a data-href="#^59c764" href="about:blank#^59c764" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^59c764</a><a data-href="#^59c764" href="about:blank#^59c764" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Todo normado es metrico</a>
+<br>Por dim finita es completo <a data-href="#^26042d" href="about:blank#^26042d" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^26042d</a><a data-href="#^26042d" href="about:blank#^26042d" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Corollary 13</a>
+<br>Cerrado por 1. <a data-href="#^83c633" href="about:blank#^83c633" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^83c633</a><a data-href="#^83c633" href="about:blank#^83c633" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 14</a>
+
+<br>Remark (Contraejemplo I).
+<a data-href="#^3196e0" href="about:blank#^3196e0" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^3196e0</a><a data-href="#^3196e0" href="about:blank#^3196e0" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Corollary 15</a> no es cierto si la dimension es infinita
+<br>Proof
+
+<br>
+<br>S subespacio de dim infinita de 
+<br>
+<br>Sea  
+<br> o lo mismo 
+<br> no es cerrado<br>
+
+
+<br><br>Lemma.
+ espacio vectorial normado,  subespacio de  entonces 
+<br>Proof
+
+<br>
+<br>Por ser clausura existen  en 
+<br> subesp 
+<br> entonces 
+<br>Analogo 
+
+<br><br>Definition (Span).
+ normado:<br>
+
+<br><br>Lemma.
+ espacio vectorial normado  entonces: 
+
+<br> es un cerrado de  que contiene a 
+<br>
+Proof
+
+<br>Interseccion de cerrados es cerrados y interseccion de subespacios es subespacio
+<br> es subespacio cerrado por <a data-href="#^4c773a" href="about:blank#^4c773a" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^4c773a</a><a data-href="#^4c773a" href="about:blank#^4c773a" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Lemma 17</a> y contiene a  por def
+
+
+<br>()  es subespacio que contiene a  entonces esta en la interseccion 
+<br>() Como  es cerrado y contiene a  luego 
+
+
+
+
+<br>Lemma (Riesz).
+Sea  normado,  subespacio cerrado  con . Sea . Entonces  con  tal que  
+<br>Proof
+
+<br>
+<br>
+<br>(Def infimo) 
+<br>
+<br>
+
+<br><br>Theorem.
+Sea  espacio vectorial dimension infinita<br>
+no son compactos
+<br>Proof
+
+<br> como dim infinita  (Sp cerrado por ser de dim finita)
+<br><a data-href="#^ae7428" href="about:blank#^ae7428" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^ae7428</a><a data-href="#^ae7428" href="about:blank#^ae7428" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Riesz</a>  tal que 
+<br>Generalizando  tal que 
+<br>Asi armamos una sucesion que no puede tener sub convergente en porque si fuese convergente seria de cauchy 
+
+<br>Remark.
+ y  son compactos   dim finita
+<br><br>Definition (Banach Space).
+Un espacio de Banach es un espacio normado que es completo con la metrica asociada a la norma
+<br><br>Theorem.
+
+<br>Todo normado de dim finita es Banach
+<br>Si  es metrico completo  es banach
+<br>Si  subespacio medible  son banach<br>
+(En particular  son banach)
+<br> Banach,  subespacio entonces  Banach  cerrado
+
+<br>Proof
+
+<br>Visto arriba <a data-href="#^26042d" href="about:blank#^26042d" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^26042d</a><a data-href="#^26042d" href="about:blank#^26042d" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Corollary 13</a>
+<br>Se asume visto en Reales 
+<br>Se asumen visto en Reales
+<br><a data-href="#^83c633" href="about:blank#^83c633" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^83c633</a><a data-href="#^83c633" href="about:blank#^83c633" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 14</a>
+
+<br>Theorem.
+Sea  de Banach  si la serie  converge entonces  converge
+<br>Proof
+
+<br> (por ser convergente la serie las sumas parciales son de cauchy)
+<br>Sea  entonces 
+<br>Como  completo  converge
+
+]]></description><link>Functional Analysis/Theory/Teórico 1.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 1.md</guid><pubDate>Wed, 25 Sep 2024 00:53:04 GMT</pubDate></item><item><title><![CDATA[Teórico 2]]></title><description><![CDATA[ 
+ <br>def. de pi<br>lema evpi<br>Proposition.
+ e.v.pi  entonces:
+
+<br>
+<br>La fc  dada por  es norma en 
+
+<br>lema sobre evpi<br>Theorem (Regla Paralelogramo e identidades de polarizacion).
+Sea  e.v.pi con norma inducida  entonces  vale:
+
+<br> (Regla Paralelogramo)
+<br>Si 
+<br>Si 
+
+<br>Proposition (Continuidad del producto interno).
+Sea  e.v.pi.  con  en  entonces<br>
+
+<br><br>def de orto p8<br>lema sobre ortogonalidad p8<br>Definition (Espacio de Hilbert).
+Un espacio con producto interno completo con respecto a la metrica asociada a la norma inducida por el producto interno se dice espacio de Hilbert
+<br>Example (Contraejemplo I).
+ es facil ver que  es producto interno con norma inducida . Restaria ver que no es completo
+<br>Proposition (Sub cerrado es Hilbert).
+Sea  Hilbert,  sub espacio entonces 
+<br>def de complemento orto<br>Lemma.
+ e.v.pi  subconjunto entonces:
+
+<br>
+<br>Si  si no 
+<br>
+<br>Si  contiene una bola  para algun  y <br>
+(Si  abierto no vacio )
+<br>
+<br> es una sub cerrado de 
+<br>
+Proof
+Pendiente
+
+
+
+<br><br>Proposition ( ).
+Sea  subespacio de  e.v.pi entonces 
+Proof
+]]></description><link>Functional Analysis/Theory/Teórico 2.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 2.md</guid><pubDate>Tue, 24 Sep 2024 16:28:43 GMT</pubDate></item><item><title><![CDATA[Teórico 3]]></title><description><![CDATA[ 
+ <br>Definition (Convexidad).
+Sea  espacio vectorial.  es convexo si <br>
+
+<br>Remark.
+ Todo espacio vectorial es convexo
+<br><br>Proposition.
+ convexo y cerrado y  Hilbert entonces  
+Proof
+Existencia
+
+<br> usar def de infimo 
+<br>Ver  es cauchy
+<br><br>
+(R.Paralelogramo) 
+<br>Como  conexo 
+<br> (Por 1.)
+<br>
+<br>Converge por que  Hilbert
+<br> cerrado entonces 
+<br> (Norma es continua entonces limite entra)
+
+Unicidad
+
+<br>Supongo  tal que 
+<br>Entonces  digamos 
+<br>(Regla Paralelo) 
+<br>
+
+
+<br>Remark.
+En dim finita la existencia de  es cierta inclusive sin que  sea convexo pues  es acotada entonces tiene un sub convergente. Pero si  no es convexo la unicidad en general no es cierta ej.  circunferencia y  el centro
+<br>Theorem.
+Sea  subespacio cerrado en  Hilbert entonces  tal que . Ademas  (Generalizacion de Pitagoras)
+Proof
+Existencia
+
+<br>
+ convexo (<a data-href="Teórico 3#^0636e2" href="Teórico 3#^0636e2" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^0636e2</a><a data-href="Teórico 3#^0636e2" href="Functional Analysis/Theory/Teórico 3.html#^0636e2" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Remark 2</a>)  y cerrado entonces por <a data-href="Teórico 3#^1741ed" href="Teórico 3#^1741ed" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^1741ed</a><a data-href="Teórico 3#^1741ed" href="Functional Analysis/Theory/Teórico 3.html#^1741ed" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Proposition 3</a>
+
+<br>
+ tal que 
+
+<br>
+
+
+<br>
+ ( por ser subespacio)
+
+<br>
+Por <a data-href="Teórico 2#^75b372" href="Teórico 2#^75b372" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 2 &gt; ^75b372</a><a data-href="Teórico 2#^75b372" href="Functional Analysis/Theory/Teórico 2.html#^75b372" class="internal-link mathLink-internal-link" target="_self" rel="noopener"></a> 
+
+
+Unicidad Trivial
+
+<br>Corollary.
+Si  subespacio cerrado en  hilbert entonces  
+Proof
+
+<br>.  entonces  <a data-href="Teórico 3#^3686bc" href="Teórico 3#^3686bc" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^3686bc</a><a data-href="Teórico 3#^3686bc" href="Functional Analysis/Theory/Teórico 3.html#^3686bc" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 5</a>
+
+
+<br>Corollary.
+Si  subespacio Hilbert entonces 
+Proof
+trivial
+
+<br><br>Definition (Sucesion Ortonormal).
+Sea  e.v.pi. Una sucesion  se dice ortonormal si  y 
+<br>Theorem.
+Todo  e.v.pi de dimension finita contiene una sucesion ortonormal 
+Proof
+Usando <a data-href="Teórico 1#^8db74f" href="Teórico 1#^8db74f" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 1 &gt; ^8db74f</a><a data-href="Teórico 1#^8db74f" href="Functional Analysis/Theory/Teórico 1.html#^8db74f" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 21</a> Tenemos una sucesion de  de vectores unitarios que linealmente independientes por construccion. Aplicamos Grahm-Schmidt y obtenemos sucesion ortonormal
+
+<br>Remark.
+Si  es e.v.pi dimension k y  es base de  entonces . Queremos ver si esto se puede generalizar en dimension infinita a 
+<br>Theorem (Desigualdad de Bessel).
+ e.v.pi  sucesion ortonormal entonces  la serie  converge y 
+Proof
+
+<br>
+<br> 
+<br>
+<br>Usando limite se termina
+
+
+<br>Theorem.
+Sea  Una sucesion ortonormal y  entonces<br>
+Si esto ocurre 
+Proof
+
+<br> Sea  
+<br> ( cuando a partir de algun momento)
+<br><br>
+(Por <a data-href="Teórico 3#^1a2dbf" href="Teórico 3#^1a2dbf" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^1a2dbf</a><a data-href="Teórico 3#^1a2dbf" href="Functional Analysis/Theory/Teórico 3.html#^1a2dbf" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Desigualdad de Bessel</a>)
+<br> Sea 
+<br> (Por que la serie converge)
+<br>Como  es de cauchy en un Hilbert converge
+
+Por ultimo como las series converge y como en finito ya tenemos la igualdad.<br>
+Detalle de esta ultima parte<br>
+
+
+<br>Corollary.
+Sea  Hilbert una sucesion ortonormal entonces  sucede que  converge en 
+Proof
+
+<br>Por <a data-href="Teórico 3#^1a2dbf" href="Teórico 3#^1a2dbf" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^1a2dbf</a><a data-href="Teórico 3#^1a2dbf" href="Functional Analysis/Theory/Teórico 3.html#^1a2dbf" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Desigualdad de Bessel</a>  converge
+<br>Por <a data-href="Teórico 3#^4e7cf9" href="Teórico 3#^4e7cf9" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^4e7cf9</a><a data-href="Teórico 3#^4e7cf9" href="Functional Analysis/Theory/Teórico 3.html#^4e7cf9" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 12</a> esto implica  converge
+
+
+<br>Remark.
+Surge ahora la pregunta cuando sucede que  converge en particular a 
+<br>Example (Contraejemplo 1).
+Sea  ortonormal y  subsucesion. Se puede ver que . Por ende encontramos un  que no se puede escribir como dicha suma
+<br>Theorem (3.47 Bon de Hilbert).
+Sea  Hilbert sucesions ortonormal son equivalentes
+
+<br> = 
+<br>
+<br> (Teorema de Parseval)
+<br>
+Proof
+ ,  entonces  vale Entonces <br>
+<br>
+Entonces  (Por <a data-href="Teórico 3#^4e7cf9" href="Teórico 3#^4e7cf9" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^4e7cf9</a><a data-href="Teórico 3#^4e7cf9" href="Functional Analysis/Theory/Teórico 3.html#^4e7cf9" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 12</a>)<br>
+<br>
+  entonces <br>
+(<a data-href="Teórico 1#^f320eb" href="Teórico 1#^f320eb" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 1 &gt; ^f320eb</a><a data-href="Teórico 1#^f320eb" href="Functional Analysis/Theory/Teórico 1.html#^f320eb" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Lemma 19</a>])<br>
+ Sea  entonces  por lo tanto <br>
+<br>
+Entonces 
+
+
+
+<br>Remark.
+Decimos que  es base ortonormal de  si cumple alguna de las condiciones anteriores. Notar que para una base ortonormal entonces se cumple la igualdad en la desigualdad de Bessel <a data-href="Teórico 3#^1a2dbf" href="Teórico 3#^1a2dbf" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^1a2dbf</a><a data-href="Teórico 3#^1a2dbf" href="Functional Analysis/Theory/Teórico 3.html#^1a2dbf" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Desigualdad de Bessel</a>
+<br>Remark.
+ tiene todas las combinaciones lineales finitas de vectores en  (Que es numerable infinito) pero para que valga <a data-href="Teórico 3#^f63eb1" href="Teórico 3#^f63eb1" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^f63eb1</a><a data-href="Teórico 3#^f63eb1" href="Functional Analysis/Theory/Teórico 3.html#^f63eb1" class="internal-link mathLink-internal-link" target="_self" rel="noopener">3.47 Bon de Hilbert</a> necesito considerar las sumas infinitas. Esto corresponde a considerar . En dimension finita el span es cerrado y por lo tanto igual a su clausura asi que no hace falta diferenciar entre estos conceptos.
+<br>Theorem (3.52 Hilbert dim infinita separable sii BON de Hilbert).
+
+<br>Espacios normados de dim finita son separables
+<br>Un Hilbert de dim infinita es separable  tiene una BON de Hilbert
+Proof
+
+<br> finito  base. El conjunto de los vectores  donde  es denso y numerable
+<br>
+
+
+<br> Tenemos  denso y numerable a partir de el armamos  dejando de lado los  que son combinacion lineal de algun elemento anterior. 
+<br>Por lo tanto  sera linealmente idependiente. 
+<br>Aplicamos Grahm-Schmidt y obtenemos  tal que  
+<br>Como  era denso en  entonces  basi ortonormal<br>
+(<a data-href="Teórico 3#^f63eb1" href="Teórico 3#^f63eb1" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^f63eb1</a><a data-href="Teórico 3#^f63eb1" href="Functional Analysis/Theory/Teórico 3.html#^f63eb1" class="internal-link mathLink-internal-link" target="_self" rel="noopener">3.47 Bon de Hilbert</a>)
+<br> Ahora tenemos BON. Afirmamos que el conjunto  de  que son expresables como sumas finitas  con  (o  es denso y numerable.
+<br> numerable es trivial.
+<br>Sea  entonces  y sabemos que vale  (<a data-href="Teórico 3#^4e7cf9" href="Teórico 3#^4e7cf9" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^4e7cf9</a><a data-href="Teórico 3#^4e7cf9" href="Functional Analysis/Theory/Teórico 3.html#^4e7cf9" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 12</a>) entonces 
+<br>Para  elegimos  tales que  (Densidad en )
+<br>
+<br>Entonces  es denso en 
+
+
+
+
+<br>Corollary.
+ es separable.  es separable. Veremos mas adelante que tienen BON de Hilber
+<br>Example (Contraejemplo 2).
+Hilbert que no es separable.  
+Proof
+
+<br>Es facil ver que es Hilbert con 
+<br>Sea<br>
+Estan en el . Ademas . Si tuviese un denso para cada  me armo una bola de radio mas chico que 2 cada una de estas bolas tiene algun elemento del denso numerable, pero no se intersecan entre si. Absurdo porque tengo no numerables bolas.
+
+
+]]></description><link>Functional Analysis/Theory/Teórico 3.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 3.md</guid><pubDate>Sun, 06 Oct 2024 14:52:03 GMT</pubDate></item><item><title><![CDATA[Teórico 4]]></title><description><![CDATA[ 
+ <br>Theorem (Stone-Weierstrauss).
+Sea  entonces los polinomios con coeficientes reales son densos en 
+<br>Theorem (1.61 Youngson).
+El conjunto  es denso en  con 
+<br><br>Theorem.
+es una base ortonormal de 
+Proof
+<br>Corollary.
+ es separable.
+<br>Theorem.
+is una base ortonormal en 
+Proof
+<br>Theorem ((Bases de Fourier)).
+son bases ortonormales de . Ademas  es base ortonormal de 
+Proof
+<br><br>Definition (Operador Lineal).
+Sea  normados (sobre el mismo ). Decimos que  es lineal si<br>
+
+<br>Remark.
+Decimos que  continua en  si  tal que 
+<br>Lemma (Equivalencia de continuidad para operadores lineales).
+Sean  e  ev normados y  una transformacion lineal. Son equivalentes:
+
+<br> es uniforme continua
+<br> es continua
+<br> es continua en 0
+<br>Existe un numero real positivo  tal que  y 
+<br>Existe un numero real positivo  tal que  
+
+<br>Example.
+ definida por  es continua
+Proof
+<br>Lemma.
+Si  y  con  entonces  y 
+Proof
+<br>Example (Operador lineal continuo).
+Si  luego  definida por es continua
+<br>Example (Operador lineal continuo).
+Si  luego  definida por es continua
+<br>Example (Operador lineal no continuo).
+.  subespacio de polinomios.  dada por <br>
+Uso  con  y se rompe  <a data-href="Teórico 4#^cae689" href="Teórico 4#^cae689" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 4 &gt; ^cae689</a><a data-href="Teórico 4#^cae689" href="Functional Analysis/Theory/Teórico 4.html#^cae689" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Equivalencia de continuidad para operadores lineales</a><br>
+
+]]></description><link>Functional Analysis/Theory/Teórico 4.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 4.md</guid><pubDate>Tue, 01 Oct 2024 00:05:53 GMT</pubDate></item><item><title><![CDATA[Teórico 5]]></title><description><![CDATA[ 
+ <br><br>Definition (Operador Acotado).
+Sean  e  ev normados,  lineal.  se dice acotada si existe un numero  tal que 
+<br>Remark.
+
+<br>Continua y acotada son intercambiables por <a data-href="Teórico 4#^cae689" href="Teórico 4#^cae689" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 4 &gt; ^cae689</a><a data-href="Teórico 4#^cae689" href="Functional Analysis/Theory/Teórico 4.html#^cae689" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Equivalencia de continuidad para operadores lineales</a>.
+<br>Acotada en transformaciones lineales no es el mismo concepto que acotada en funciones reales 
+<br>Llamamos  al conjunto de todos los operadors  acotados
+<br>Si  e  ev son normados 
+
+<br>Example.
+Sean ,  continua y<br>
+
+
+<br>Si  entonces  dada por  esta en 
+<br> lineal definida por  entonces  y 
+
+<br>Theorem (En dim finita transformaciones lineales son continuas).
+Sea  espacio vectorial normado de dimension finita  espacio vectorial cualquiera y  lineal. Entonces  es continua
+Proof
+
+<br>Definimos 
+<br>Vemos que es norma
+<br>Como son todas equivalentes en dim finita 
+<br>Por def 
+
+
+<br>Lemma.
+Si  e  son normados  lineal continua entonces  es cerrado
+Proof
+
+<br> y  es cerrado en  (por que es completo)
+<br> continua y preimagen de cerrado es cerrado
+
+
+<br>Definition.
+ e  normados  lineal. Llamamos grafico de  al subespacio  de  definido por 
+<br>Lemma (Grafico es cerrado).
+ e  normados  lineal y continua entonces  es cerrado
+Proof
+a
+
+<br>Lemma.
+ e  normados. Sean  con  y  entonces  y  vale
+
+<br>
+<br>
+
+Asi podemos concluir que  es un subespacio de  por lo tanto un espacio vectorial
+<br><br>Lemma.
+Sean  e  normados. Si  esta definida por Entonces  es una norma en 
+Proof
+
+<br>Norma de 0
+
+<br>
+
+
+<br>Saca escalar
+
+<br> 
+
+
+<br>Desigualdad Triangular:
+
+<br>Notar que  (Porque  es supremo). Luego 
+<br>
+<br>Usando supremo de ambos lados 
+
+
+
+
+<br>Remark.
+
+Proof
+Sea  y  
+
+<br> Trivial
+<br> Supongamos 
+<br> con  tal que  (Por ser supremo)
+<br>Entonces  con  tal que 
+<br>Entonces  (Por def de supremo y ) Absurdo
+
+
+<br>Remark.
+Notar que del <a data-href="Teórico 4#^cae689" href="Teórico 4#^cae689" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 4 &gt; ^cae689</a><a data-href="Teórico 4#^cae689" href="Functional Analysis/Theory/Teórico 4.html#^cae689" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Equivalencia de continuidad para operadores lineales</a> se desprende<br>
+
+<br>Example.
+ lineal definido como entonces 
+Proof
+
+<br>Ya probamos en <a data-href="Teórico 4#^9798e1" href="Teórico 4#^9798e1" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 4 &gt; ^9798e1</a><a data-href="Teórico 4#^9798e1" href="Functional Analysis/Theory/Teórico 4.html#^9798e1" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Example 10</a> que  
+<br>
+<br>Por otro lado sea  esta definida como  entonces 
+<br>
+<br> (Todo por definicion de )
+<br>
+<br>Finalmente 
+
+
+<br>Theorem.
+Sea  un normado y sea  un subespacio denso de . Sea  un Banach y 
+
+<br>Sea  y  sucesiones en  tales que  e  entonces  y  ambas convergen y 
+<br>Existe un  tal que 
+
+<br>
+<br> 
+
+
+
+<br>Definition (Isometria).
+Sean  e  normados . Decimos que  es una isometria si En todo espacio normado existe por lo menos una isometria
+<br>Remark (Isormorfismo isometrico).
+
+<br> isometria   continua (acotada) e inyectiva
+<br>Si ademas  sobreyectiva entonces es biyectiva lo nombramos isormofismo isometrico
+<br>En dim finita toda isometria es biyectiva en dim infinita no necesariamente
+
+<br>Example (Isometria no biyectiva).
+ dada por es una isometria (normalmente se la nombra "unilateral shift"). No es biyectiva
+<br>Lemma.
+ e  normados . Si  es una isometria entonces  acotada y 
+<br>Theorem.
+Sea  Hilbert de dimension infinita sobre  con una base ortonormal de hilbert . Entonces existe un isomorfismo isometrico  tal que  (Aca  seria base de Hilbert de )
+<br>Corollary.
+Todo  Hilbert sobre  de dimension infinita y separable es isometricamente isomorfo a 
+<br><br>Theorem ( Banach entonces  Banach).
+Si  normado e  Banach entonces el espacio normado  es Banach
+Proof
+
+<br>Sea  sucesion de Cauchy en . Entonces vale  Veamoslo
+
+<br>Esta acotada por que  entonces 
+<br>
+
+
+<br>. 
+<br>Entonces como  es Cauchy  es Cauchy en 
+<br>Como  Banach entonces converge entonces definimos 
+<br>Veamos que es lineal Analogo para escalar
+<br>Veamos que es acotada. . Entonces<br>
+ Usando .<br>
+Y ahora viene parte que esta rara (Preguntar)
+
+
+<br>Definition.
+Sea  normado sobre . El espacio  es llamado espacio dual de  y se denota 
+<br>Corollary.
+Si  es normado entonces  es Banach
+Proof
+ es completo entonces usamoss <a data-href="Teórico 5#^7e0978" href="Teórico 5#^7e0978" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 5 &gt; ^7e0978</a><a data-href="Teórico 5#^7e0978" href="Functional Analysis/Theory/Teórico 5.html#^7e0978" class="internal-link mathLink-internal-link" target="_self" rel="noopener"> Banach entonces  Banach</a>
+
+<br>Example.
+Sea  Hilbert sobre , sea . Si  es definida como  entonces  es un elemento de 
+<br>Theorem ((Riesz-Frechet)).
+Si  es Hilbert y  entonces existe unico  tal que .<br>
+Ademas 
+Proof
+pendiente
+
+<br>Theorem.
+
+<br>Si  y  entonces  y si  esta definida como  entonces  con 
+<br>Si  entonces existe un  tal que  y 
+<br>El espacio  es isometricamente isomorfo a 
+Proof
+
+<br>Se desprende de <a data-href="Teórico 4#^a511bc" href="Teórico 4#^a511bc" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 4 &gt; ^a511bc</a><a data-href="Teórico 4#^a511bc" href="Functional Analysis/Theory/Teórico 4.html#^a511bc" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Operador lineal continuo</a>
+<br>
+
+
+
+
+]]></description><link>Functional Analysis/Theory/Teórico 5.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 5.md</guid><pubDate>Wed, 02 Oct 2024 20:09:39 GMT</pubDate></item><item><title><![CDATA[Teórico 6]]></title><description><![CDATA[ 
+ <br>Definition (Composicion de Lineales).
+Sean  normados  y  la composicion  se llama producto y 
+<br>Lemma.
+Sean  normados  y  entonces 
+Proof
+
+<br>Sabemos  
+<br>Usando supremos  de ambos lados llegamos  
+<br> por que 
+<br>(Analogo ) con lo cual 
+<br>Notar que  nos dice que  por que  si  entonces  por que  es supremo
+<br>Si  entonces  si tiene norma 1 entonces 
+
+
+<br>Definition.
+
+<br>
+<br> (n-veces)
+<br> entonces 
+
+<br>Lemma.
+X normado entonces
+
+<br> es algebra asociadativa con la identidad
+<br>Si  con  entonces 
+Proof
+pendiente
+
+
+
+<br>Lemma.
+ normado  si  polinomios,  entonces
+
+<br>
+<br>
+
+<br><br>Definition.
+ normado,  se dice inversible si  tal que  y  y en tal caso se la llama inversa de . . (Si existe es unica)
+<br>Lemma.
+ normados  con  entonces
+
+<br>Si  son inversibles entonces  tiene inversa  y  tiene inversa 
+<br>Si  y  (Conmutan) entonces<br>
+- Si  inversible vale <br>
+- Si  inversible vale  y  inversibles
+Proof
+pendiente
+
+
+
+<br>Definition (Isomorfismos).
+ normados. Si  inversibles decimos que  e  son isomorfos y que  es isomorfismo
+<br>Remark (Hecha por Mi).
+Si  es isomorfismo inversible entonces  es isomorfismo
+Proof
+
+
+<br>Lemma.
+Si  normados isomorfos entonces:
+
+<br> y 
+<br> separable  separable
+<br> Banach  Banach
+
+<br>Example (Operador inversible).
+Sea  entonces  dado por <br>
+Es claro que es lineal y que esta bien definida (digamos ). Mas aun es continua pues<br>
+Otra forma de decirlo .<br>
+Si ademas  entonces <br>
+Si  entonces no sabemos que pasa ya que en gral  (Pero podria ocurrir que ) y que no sea de la forma  para ningun 
+<br>Theorem.
+ Banach  com  entonces 
+Proof
+pendiente
+
+<br>Remark (Aplicacion).
+ con  dada por . Probar que si  entonces  tal que<br>
+
+Proof
+Aca . Notar que ya probamos que  dada por<br>
+es acotado y  (<a data-href="Teórico 5#^33cdb2" href="Teórico 5#^33cdb2" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 5 &gt; ^33cdb2</a><a data-href="Teórico 5#^33cdb2" href="Functional Analysis/Theory/Teórico 5.html#^33cdb2" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Example 3</a>).<br>
+En particular  (Supremo cuando  de ambos lados).<br>
+Entonces  por que <br>
+Notar que la identidad para operadores que salen de continua y llegan a continuas es  tal que <br>
+Ahora si aplicamos el teorema de arriba. y usando <br>
+Entonces y  es unica por que  lo es (por ser inversa)
+
+<br>Corollary.
+Sean  Banach entonces el conjunto  de operadores inversibles es abierto en 
+Proof
+pendiente
+
+<br>Theorem (Baire).
+Sea  metrico completo si  con  cerrado entonces al menos un  contiene una bola abierta
+<br>Theorem (Aplicacion abierta).
+Sean  Banach.  sobreyectiva. Sea<br>
+Obs: 
+
+<br> tal que 
+<br>
+<br>Si ademas  inyectiva entonces  es inversible ergo  biyectiva luego  es continua (Teorema de la inversa continua)
+Proof
+a
+
+
+
+<br>Remark.
+Si  e  no son Banach el teorema en general no es cierto. Tomamos  el subespacio de las sucesiones que tienen finitos terminos no nulos y sea  dada por<br>
+Entonces  es lineal y acotada por que  y biyectiva pero  no es acotada.<br>
+Tomamos <br>
+Entondes  es continua pues es acotada por que
+
+]]></description><link>Functional Analysis/Theory/Teórico 6.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 6.md</guid><pubDate>Mon, 30 Sep 2024 03:11:43 GMT</pubDate></item><item><title><![CDATA[Teórico 7]]></title><description><![CDATA[ 
+ <br>Corollary.
+ normado tal que  y . Supongamos que  entonces  y  son equivalentes
+Proof
+Tomamos  que es lineal continua y biyectiva luego por teorema de aplicacion abierta sale, por que  seria continua (acotada)
+
+<br>Corollary ((Teorema del grafico cerrado)).
+Sean  e  Banach y  entonces<br>
+
+Proof
+1. e  Banach entonces grafico es cerrado es <a data-href="Teórico 5#^5463d1" href="Teórico 5#^5463d1" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 5 &gt; ^5463d1</a><a data-href="Teórico 5#^5463d1" href="Functional Analysis/Theory/Teórico 5.html#^5463d1" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Grafico es cerrado</a> (no entiendo esto)<br>
+2.  entonces  es biyectiva y lineal<br>
+3.  (Esto ultimo por definicion de norma)<br>
+4. Luego  es continua<br>
+5.  es continua (<a data-href="Teórico 6#^c7bd75" href="Teórico 6#^c7bd75" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 6 &gt; ^c7bd75</a><a data-href="Teórico 6#^c7bd75" href="Functional Analysis/Theory/Teórico 6.html#^c7bd75" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Aplicacion abierta</a>)<br>
+6. Ahora  7. Entonces  continua
+
+<br>Lemma.
+ e  normados  inversible entonces<br>
+
+Proof
+
+
+<br>Theorem.
+ Banach,  normado  si  tal que  entonces  es cerrado
+Proof
+
+<br>Sea  tal que  en  entonces  tal que  
+<br> coverge entonces es de Cauchy 
+<br>Entonces  es de Cauchy luego converge  ( Banach) entonces 
+<br> ( continua)
+<br> (Unicidad limite)
+
+
+<br>Theorem.
+ Banach  entonces son equivalentes:
+
+<br> es inversible
+<br> es denso en  y  tal que 
+Proof
+a
+
+
+
+<br>Corollary.
+Sean  Banach <br>
+
+<br>Remark.
+Aplicacion del corolario<br>
+. Sea dada por Si  entonces  es no inversible. 
+Proof
+
+<br>
+<br>
+<br>Ademas 
+<br>No se bien por que  entonces por <a data-href="Teórico 7#^e2cb3f" href="Teórico 7#^e2cb3f" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 7 &gt; ^e2cb3f</a><a data-href="Teórico 7#^e2cb3f" href="Functional Analysis/Theory/Teórico 7.html#^e2cb3f" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Corollary 6</a>   es no inversible
+
+
+<br>Lemma.
+,  normado sobre  defino<br>
+Entonces  es norma y si  es Banach entonces  es Banach 
+Proof
+a
+
+<br>Theorem (Acotado uniforme de Banach-Steinhaus).
+Sean  Banach. Sea  y para cada  sea  entonces si para cada  el conjunto  es acotado () entonces  es acotado
+<br><br>Theorem (Representacion de Riesz).
+Sea  Hilbert  entonces  tal que . Mas aun 
+Proof
+<br>Theorem.
+ Hilbert sea  dado por  donde . Entonces  es biyectivo. Ademas 
+
+<br>
+<br><br>
+Ademas se puede definir un producto interno en  como<br>
+Con este producto  es Hilbert y la norma asociada a cada  coincide con la norma de  como elemento 
+Proof
+a
+
+
+
+]]></description><link>Functional Analysis/Theory/Teórico 7.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 7.md</guid><pubDate>Tue, 01 Oct 2024 13:32:12 GMT</pubDate></item><item><title><![CDATA[Teórico 8]]></title><description><![CDATA[ 
+ <br>Corollary.
+ Banach  si  existe para cada  y  con 
+Proof
+a
+
+<br>Lemma.
+Sea  y  entonces  es denso en . Si  finito y no es denso en . Ademas  es separable si  y no lo es si 
+Proof
+a
+
+<br>Theorem.
+Sea  y  tales que  entonces:
+
+<br>Si  entonces  la sucesion  y  dada por  esta en  y 
+<br>,  tal que 
+<br> dada por  es isomorfismo isometrico
+Proof
+a
+
+
+
+<br><br>Definition.
+ espacio vectorial  es topologia tal que 
+
+<br> sucede  es cerrado ( es )
+<br> continua respecto a . Digamos  y  entorno de  existe  entornos de  y  respectivamente tales que 
+<br> continua respecto a . Digamos ,  y  entorno de  tenemos que  y  entorno tal que 
+
+<br>Remark.
+Podemos ver que entonces  es Hausdorff (Lo probamos mas adelante)<br>
+ dads por<br>
+Son continuas con inversa continua (Homeomorfismo). Digamos  es invariante concluyendo que Por lo tanto  queda determinada por cualquier local en 0<br>
+Analogamente una base local de un espacio vectorial topologico  es una familia  de entornos de 0 tales que dado un entorno cualquiera de  contiene un elemento de 
+<br>Lemma.
+
+<br>Para  espacio vectorial topologico    Son homeomorfismos
+<br>Si  y  entorno del 0  es entorno de 
+<br> entorno de  y  entonces  es abierto y contiene a 
+<br>Si  entorno de 0 entonces 
+
+<br>, ,  son entornos del 0
+<br> es entorno de 0 (llamado entorno simetrico) 
+<br>Si  entorno simetrico entonces  es entorno simetrico
+
+
+<br> espacio vectorial normado de 0 entonces  espacio vectorial normado de 0, simetrico, tal que 
+
+<br>Theorem (1.10).
+ espacio vectorial topologico  compacto y  cerrado tal que  entonces  entorno de 0 tal que 
+<br>Corollary.
+Todo espacio vectorial topologicos 
+<br>Remark.
+Como  y  son abiertos disjuntos entonces tambien 
+Proof
+
+<br>Si  entonces  entorno de  tal que . 
+<br>Si  entonces todo entorno de  interseca a  en particular . absurdo
+
+
+<br>Corollary (1.11).
+ conjunto de bolas de  espacio vectorial topologico entonces todo miembro de  contiene la clausura de algun otro miembro de  digamos 
+<br>Definition (Entorno Balanceado).
+ espacio vectorial topologico se dice balanceado  son
+]]></description><link>Functional Analysis/Theory/Teórico 8.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 8.md</guid><pubDate>Sun, 06 Oct 2024 20:57:26 GMT</pubDate></item><item><title><![CDATA[Teórico 9]]></title><description><![CDATA[ 
+ <br>Lemma.
+Todo entorno del 0 es un entorno balanceado del 0
+Proof
+a
+
+<br>Lemma.
+Todo entorno del 0 contiene un entorno balanceado del 0
+<br>Definition.
+ espacio vectorial topologico es acotado si  entorno del 0 
+<br>Remark.
+En un espacio metrico  decimos que  es acotado si . Esta def en general no coincide con la anterior. Reemplazo  por la metrica<br>
+Esta induce la misma topologia pero no coinciden (de hecho todos los conjuntos con  son acotados)
+<br>Remark.
+Si  es normado y  la distancia inducida por la norma entonces si coinciden. 
+Proof
+a
+
+<br>Theorem (1.15).
+ espacio vectorial topologico  entorno del 0 entonces
+
+<br> sucesion  tenemos 
+<br> compacto entonces  acotado
+<br>Si  acotado  sucesion  tenemos  es base local numerable
+Proof
+a
+
+
+
+<br>Definition.
+ espacio vectorial topologico decimos:
+
+<br> es local convexo si  base local cuyos elementos son convexos
+<br> es localmente acotado si  entorno del 0 acotado
+<br> es localmente compacto si  entorno del 0 con clausura compacta
+<br> es Espacio Frechet si  es localmente compacto y  es inducida por una metrica  invariante y completa
+<br> es metrizable si  es inducida por una metrica
+<br> es normable si  es inducida por la metrica correspondiente a una norma
+<br> tiene la propiedad Heine-Borel si cerrado y acotado implica compacto
+
+<br>Theorem.
+
+<br> localmente acotado entonces tiene una base local numerable (Teo 1.15)
+<br> metrizable  tiene base local numerable (Teo 1.24)
+<br> normable  localmente convexo y  localmente acotado (Teo 1.39)
+<br> localmente acotado y tiene la propiedad de Heine-Borel entonces  finita ( localmente compacto)
+Proof
+a
+
+
+
+<br><br>Definition (Seminorma).
+ espacio vectorial  es seminorma si<br>
+
+<br>Definition.
+Una familia  de seminormas separa si para cada  tal que 
+<br>Remark.
+Si  es seminorma y  entonces . Luego si  seminorma<br>
+
+<br>Theorem.
+Supongamos  es una familia de seminormas que separan en un  espacio vectorial para . Sean  familia de todas als intersecciones finitas de los conjuntos . Entonces  es una base local convexa para una topologia  en  que hace de  un espacio vectorial topologico localmente convexto tal que 
+
+<br> sucede  es continua
+<br> es acotada  Todo  es acotado en 
+
+<br>Example.
+Queda copiar este ejeplo nefastasmente largos
+]]></description><link>Functional Analysis/Theory/Teórico 9.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 9.md</guid><pubDate>Sun, 06 Oct 2024 20:57:59 GMT</pubDate></item><item><title><![CDATA[Teórico 10]]></title><description><![CDATA[ 
+ <br>Definition.
+ espacio vectorial  sub espacio y  funcional lineal. Entonces un funcional lineal  se dice extension de  si 
+<br>Definition (Funcional sublineal).
+ espacio vectorial real  se dice funcional sublineal en  si:
+
+<br>
+<br>
+
+<br>Remark.
+
+<br> lineal entonces sublineal (probar que no vale la vuelta)
+<br> lineal entonces  es sublineal (probar que no es seminorma)
+<br>Si  es normado  es sublineal (probar que es seminorma)
+<br> entonces  es sublineal (probar que no es seminorma)
+
+<br>Remark.
+ sublineal entonces . En particular 
+
+<br> entonces . 
+<br>Ademas  y . Entonces 
+<br> no tiene por que ser positiva/no negativo. Pero si  es par entonces usando   En tal caso usando  
+
+<br>Theorem (Hahn-Banach sobre ).
+ espacio vectorial  <a data-href="Teórico 10#^dafca5" href="Teórico 10#^dafca5" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^dafca5</a><a data-href="Teórico 10#^dafca5" href="Functional Analysis/Theory/Teórico 10.html#^dafca5" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Funcional sublineal</a>. Supongamos  subespacio y  lineal tal que <br>
+Entonces  extension de  tal que 
+Proof
+Se prueba mas adelante
+
+<br>Remark.
+Notacion: Si  es  espacio vectorial escribimos  al espacio vectorial real restringiendo los escalares. Si ademas  normado entonces  normado con la misma norma (ejercicio)
+<br>Lemma (Duda).
+Sea  funcional lineal entonces  funcional lineal tal que Reciprocamente si  es lineal entonces  dada por (1) es funcional lineal.<br>
+Ademas si  normado En tal caso .<br>
+(Notar que  con )
+Proof
+(Existencia)
+
+<br>Dado  escribimos  con  funcionales lineales (ejercicio)
+<br> (Por linelidad) (Duda  puede sacar escalares complejos??)
+<br> (igualando partes reales)
+<br>Reemplazando 
+
+(Unicidad) Ejercicio<br>
+(Reciproca) Ejercicio
+( normado)<br>
+()
+
+<br> (Modulo de numero complejo)
+<br>Luego si  usando lo de arriba 
+<br>Usando supremo de  llegamos a  
+
+() (DUDA)
+
+<br>Supongamos  y sea  tal que  y 
+<br>Entonces  
+<br>Usando supremo 
+
+(Duda: entender bien lo de )
+
+<br>Lemma (DUDA).
+Sean  un  espacio vectorial con  <a data-href="Teórico 9#^c27268" href="Teórico 9#^c27268" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 9 &gt; ^c27268</a><a data-href="Teórico 9#^c27268" href="Functional Analysis/Theory/Teórico 9.html#^c27268" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Seminorma</a>. Supongo existe  subespacio  lineal con .<br>
+Supongo  definida en <a data-href="Teórico 10#^5efc35" href="Teórico 10#^5efc35" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^5efc35</a><a data-href="Teórico 10#^5efc35" href="Functional Analysis/Theory/Teórico 10.html#^5efc35" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Duda</a> tiene una extension  tal que <br>
+(DUDA No sucede que siempre tiene una extension , justamente usando hahn Banach ?)<br>
+Entonces  tiene una extension  tal que 
+Proof
+
+<br> que es extension de  (DUDA)
+
+(Desigualdad)
+
+<br> con  y  con  tal que  (Por que existe)
+<br> (No falta modulo? y ademas es para todo x )
+
+
+<br>Theorem (Hahn-Banach General DUDA).
+Sea  espacio vectorial  <a data-href="Teórico 9#^c27268" href="Teórico 9#^c27268" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 9 &gt; ^c27268</a><a data-href="Teórico 9#^c27268" href="Functional Analysis/Theory/Teórico 9.html#^c27268" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Seminorma</a>  subespacio y  funcional lineal tal que  entonces<br>
+ tal que 
+Proof
+
+<br>Si  es seria <a data-href="Teórico 10#^2b57ba" href="Teórico 10#^2b57ba" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^2b57ba</a><a data-href="Teórico 10#^2b57ba" href="Functional Analysis/Theory/Teórico 10.html#^2b57ba" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Hahn-Banach sobre </a> (Seminorma implica sublineal)
+<br>Como  es seminorma es par entonces  (No es por hanhn Banach? DUDA)
+<br> entonces  
+<br>Entonces 
+<br>Si . Existe  dado por <a data-href="Teórico 10#^5efc35" href="Teórico 10#^5efc35" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^5efc35</a><a data-href="Teórico 10#^5efc35" href="Functional Analysis/Theory/Teórico 10.html#^5efc35" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Duda</a> con 
+<br> 
+<br>Luego por <a data-href="Teórico 10#^2b57ba" href="Teórico 10#^2b57ba" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^2b57ba</a><a data-href="Teórico 10#^2b57ba" href="Functional Analysis/Theory/Teórico 10.html#^2b57ba" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Hahn-Banach sobre </a> existe extension  con  (H-B da la desigualdad sin módulo DUDA)
+<br>Entonces por <a data-href="Teórico 10#^b346de" href="Teórico 10#^b346de" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^b346de</a><a data-href="Teórico 10#^b346de" href="Functional Analysis/Theory/Teórico 10.html#^b346de" class="internal-link mathLink-internal-link" target="_self" rel="noopener">DUDA</a>  tiene extension que cumple la desigualdad
+
+
+<br><br>Lemma (Extensiones en general).
+ un  espacio vectorial ,  sublineal y  lineal tal que Sean  con . Entonces Tal que En particular  es lineal y extension de 
+Proof
+
+<br> es  (Por sublineal) 
+<br>entonces 
+<br>Sea  (2. Nos dice que esta acotado)
+<br>Entonces ahora definimos  ???? (DUDA). 
+<br> (Usando infimo en 2.)
+<br> (Def de infimo)
+<br>Si  multiplicamos 4. por  y escribiendo  obtenemos 
+<br>Si  multiplicamos 5. por  y escribiendo  obtebemos 
+<br>Si  trivial
+<br>Entonces  cumple la desigualdad 
+
+
+<br>Theorem (Hahn Banach en normado).
+ normado  subespacio entonces  extension de  tal que 
+Proof
+
+<br>Definimos  es <a data-href="Teórico 9#^c27268" href="Teórico 9#^c27268" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 9 &gt; ^c27268</a><a data-href="Teórico 9#^c27268" href="Functional Analysis/Theory/Teórico 9.html#^c27268" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Seminorma</a> en . Trivial (Notar que esta bien definida para  )
+<br>Ademas  sucede  (Usando la def de  de 1.) Entonces 
+<br>Entonces valen las hipotesis de <a data-href="Teórico 10#^055669" href="Teórico 10#^055669" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^055669</a><a data-href="Teórico 10#^055669" href="Functional Analysis/Theory/Teórico 10.html#^055669" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Hahn-Banach General DUDA</a> por lo tanto  extension de  tal que 
+<br>Usando supremo de ambos lados 
+<br>Ademas 
+
+
+<br>Theorem.
+ normado  subespacio. Supongamos  tal que  entonces 
+Proof
+
+<br>Sea  definimos  dada por  
+
+<br>(Notar que  entonces  si no  entonces . Por lo tanto  esta bien def) (el  queda fijo)
+
+
+<br> (Notar que  entonces la desigualdad vale por ser  un infimo)
+<br>
+<br>Entonces usando 2. y 3. 
+<br>La otra desigualdad  como  es infimo  tal que 
+<br>Sea  con 
+<br>
+<br>Entonces 
+<br>Luego  luego tomando supremo de ambos lados 
+<br>Por <a data-href="#^8c080d" href="about:blank#^8c080d" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^8c080d</a><a data-href="#^8c080d" href="about:blank#^8c080d" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Hahn Banach en normado</a> extiendo  a  con  
+<br>Y es claro que si  entonces  y si  entonces 
+
+
+<br>Corollary.
+Sea  normado,  fijo  entonces  tal que:
+
+<br>
+<br>
+<br>Si  con ,  tal que <br>
+(En particular,  normado,  entonces )
+Proof
+
+<br>Por <a data-href="Teórico 10#^3a0090" href="Teórico 10#^3a0090" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^3a0090</a><a data-href="Teórico 10#^3a0090" href="Functional Analysis/Theory/Teórico 10.html#^3a0090" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 12</a> usando 
+<br>Veamos
+
+<br>Por 1. 
+<br> (Vale siempre truco de ) entonces  
+
+
+<br>(Ejercicio)  y usando <a data-href="#^3a0090" href="about:blank#^3a0090" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">^3a0090</a><a data-href="#^3a0090" href="about:blank#^3a0090" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 12</a>  por que  por que son distintos (suponiendo que )
+
+<br>Si no supusiera eso es trivial 
+<br>Entonces  osea  pero  entonces como  sucede 
+
+
+
+
+
+
+]]></description><link>Functional Analysis/Theory/Teórico 10.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 10.md</guid><pubDate>Sun, 06 Oct 2024 17:16:16 GMT</pubDate></item><item><title><![CDATA[Teórico 11]]></title><description><![CDATA[ 
+ <br>Corollary.
+Si  son linealmente independientes entonces existe  tal que 
+Proof
+
+<br>Si  por <a data-href="Teórico 10#^3a0090" href="Teórico 10#^3a0090" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^3a0090</a><a data-href="Teórico 10#^3a0090" href="Functional Analysis/Theory/Teórico 10.html#^3a0090" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 12</a> conseguimos  que cumplen lo que queremos. No deberiamos usar  y aplicar teo para conseguir  esta cunpliria segun el teo  si .. no me queda claro porque  seria . Pero asi hacemos lo mismo y conseguimos todas las funciones que necesitamos
+<br>Entonces por <a data-href="Teórico 10#^8c080d" href="Teórico 10#^8c080d" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^8c080d</a><a data-href="Teórico 10#^8c080d" href="Functional Analysis/Theory/Teórico 10.html#^8c080d" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Hahn Banach en normado</a> existen  extensiones
+
+
+<br>Theorem (DUDA).
+ separable entonces  separable
+Proof
+
+<br>Sea  
+<br>Como  es separable  tal que  es denso en  ( separable porque  separable)
+<br>Para  sea  con  y  (Existe por def de  supremo)
+<br>Sea  si  usando <a data-href="Teórico 10#^3a0090" href="Teórico 10#^3a0090" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^3a0090</a><a data-href="Teórico 10#^3a0090" href="Functional Analysis/Theory/Teórico 10.html#^3a0090" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Theorem 12</a> tenemos  tal que 
+<br>
+<br>Esto contradice la densidad de  en . Entonces .
+<br>Ahora razonando como en <a data-href="Teórico 3#^a44e0c" href="Teórico 3#^a44e0c" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 3 &gt; ^a44e0c</a><a data-href="Teórico 3#^a44e0c" href="Functional Analysis/Theory/Teórico 3.html#^a44e0c" class="internal-link mathLink-internal-link" target="_self" rel="noopener">3.52 Hilbert dim infinita separable sii BON de Hilbert</a> Parte 2, la vuelta. Se puede ver que las combinaciones lineales finitas con coeficientes racionales son densas (y claramente son numerables). Por ende  es separable<br>
+(Aca no usamos que  es BON hilbert ? por que de alguna manera estamos afirmando que  entonces ) son ortogonales? no tenemos nisiquiera PI 
+
+
+<br>Remark ( separable no implica  separable).
+
+<br> no es separable por que vimos que si  hay un isomorfismo de  en  con  entonces si  fuese separable entonces  seria separable  
+<br> separable pero  es isomorfo isometricamente a  que no es separable. 
+
+Por lo tanto no puede haber isomorfismo entre  y  pues  es separable y  no es separable
+<br>Theorem (Hahn-Banach sobre ).
+ espacio vectorial  <a data-href="Teórico 10#^dafca5" href="Teórico 10#^dafca5" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^dafca5</a><a data-href="Teórico 10#^dafca5" href="Functional Analysis/Theory/Teórico 10.html#^dafca5" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Funcional sublineal</a>. Supongamos  subespacio y  lineal tal que <br>
+Entonces  extension de  tal que 
+Proof
+ espacio vectorial real, sea  el conjunto de funciones lineal  en  tales que:
+
+<br> esta definida en un subespacio  con 
+<br> en 
+<br> en 
+
+
+<br>Notar que  es el conjunto de todas las extensiones de  a subespacios  tales que safistacen el teorema de Hahn-Banach en reales, pero con  ( por que )
+<br>Definimos un orden  y  en . Es facil ver que es orden parcial
+<br>Sea  con  totalmente ordenado, osea una cadena de . Entonces  sucede que  es extension de  y  o viceversa)
+<br>Sea . Es directo ver que  es subespacio. 
+
+<br>Sea  y  entonces  e 
+<br>Por ser  totalmente ordenado (o cadena) sin perdida de generalidades  por lo tanto  entonces  como  subespacio  
+
+
+<br>Definimos  de la siguiente manera. 
+
+<br>Dado  sabemos  tal que  entonces  
+<br>La definicion es buena ya que si  como  es orden total  entonces  coinciden en  o viceversa entonces  
+
+
+<br>Usando el orden total de  y razonando como arriba es facil ver que  es lineal. 
+<br>Mas aun  (Osea cumple las hipotesis) y ademas  en el sentido de la relacion de orden. Entonces  es cota superior de  por Lema de Zorn  tiene un elemento maximal  
+<br>Suponemos . Por <a data-href="Teórico 10#^3226b6" href="Teórico 10#^3226b6" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^3226b6</a><a data-href="Teórico 10#^3226b6" href="Functional Analysis/Theory/Teórico 10.html#^3226b6" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Extensiones en general</a> sucede que  tiene una extension que esta claramente en  (osea cumple las hipotesis) contradiciendo que  fuera maximal.
+
+
+<br>Definition (Funcional de Minkowski).
+ normado real, con  y  abierto. El funcional de Minkowski  de  esta dado por<br>
+Como  y  abierto  esta bien definido.
+<br>Remark (DUDA).
+Notar que si  entonces  y si  entonces 
+Proof
+
+<br>Sea  tal que  entonces  entonces 
+<br>Entonces  (en todo caso menor que )
+<br>Si fuera  por def de infimo  intervalo, tal que  
+<br>Entonces  que es absurdo
+
+
+<br>Lemma.
+Sean  normado real,  abierto y convexo con . Entonces el <a data-href="Teórico 11#^840b6d" href="Teórico 11#^840b6d" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 11 &gt; ^840b6d</a><a data-href="Teórico 11#^840b6d" href="Functional Analysis/Theory/Teórico 11.html#^840b6d" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Funcional de Minkowski</a> nombrado  es sublineal y<br>
+
+DUDA
+Sublineal
+
+<br>Para  sean  con . 
+<br>Sea  entonces  y  (DUDA no tengo que pedir que ademas sean mayores que 0. Si no en 4.  podria ser negativo)
+<br>Entonces como  es funcional lineal, multiplico  y llego a que . Analogo .
+<br>Luego como  convexo <br>
+(Notar que  con  por 2. por eso esta en  recordar por convexidad )
+<br>entonces  por lo tanto  
+<br>Como  son arbitrarios se sigue que  (DUDA) (Osea  cumple desigualdad triangular)
+<br>Y es claro que . Mostrando que  es <a data-href="Teórico 10#^dafca5" href="Teórico 10#^dafca5" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 10 &gt; ^dafca5</a><a data-href="Teórico 10#^dafca5" href="Functional Analysis/Theory/Teórico 10.html#^dafca5" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Funcional sublineal</a>.
+
+(b)
+
+<br>Por otro lado  abierto entonces  tal que  implica  (Definicion de abierto). Entonces para tales  sucede . 
+<br>Si elegimos ahora  vale  y . (Por sublinealidad)
+<br>Por lo tanto  entonces vale 
+<br> por definicion de <a data-href="Teórico 11#^840b6d" href="Teórico 11#^840b6d" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 11 &gt; ^840b6d</a><a data-href="Teórico 11#^840b6d" href="Functional Analysis/Theory/Teórico 11.html#^840b6d" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Funcional de Minkowski</a>
+
+(a)
+
+<br> Si  entonces  para algun  por que  y agrando el  hasta que este metido en una bola centrada en  adentro de  que existe por que  es abierto ( DUDA pero si  es muy grane  tiene que ser muy grande quizas mas que 1)
+<br>Entonces 
+<br> Si tomamos  tal que  entonces  tal que  tal que  (Por def de infimo) por lo tanto 
+<br>Luego como  convexo,  entonces 
+
+
+<br>Theorem (Teorema de Separacion (DUDA)).
+ normado real o complejo. Sean  conjuntos disjuntos no vacios y convexos
+
+<br> Si  abierto  con  tal que 
+<br> Si  compacto y  cerrado entonces  con  tales que<br>
+
+Proof
+
+
+<br>Supongo  es real. Sean ,  y  con 
+<br>Entonces  abierto (union de abiertos por que  es abierto y trasladar abiertos es abierto) (DUDA esto no es en espacio vectorial topologico?? )
+<br> convexo veamoslo, sean  y    para ciertos  que existen pues  y  son abiertos
+<br>Como  y  son disjuntos y  conexo  entonces por <a data-href="Teórico 11#^1746f5" href="Teórico 11#^1746f5" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 11 &gt; ^1746f5</a><a data-href="Teórico 11#^1746f5" href="Functional Analysis/Theory/Teórico 11.html#^1746f5" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Lemma 7</a> (negandolo) 
+<br>Sea  y  lineal dada por  
+<br>Si . 
+<br>Si  tenemos 
+<br>Entonces  en  por <a data-href="Teórico 11#^3c7ea3" href="Teórico 11#^3c7ea3" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 11 &gt; ^3c7ea3</a><a data-href="Teórico 11#^3c7ea3" href="Functional Analysis/Theory/Teórico 11.html#^3c7ea3" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Hahn-Banach sobre </a> (dado que estamos en el caso real)  extension lineal tal que .
+<br>Por <a data-href="Teórico 11#^1746f5" href="Teórico 11#^1746f5" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 11 &gt; ^1746f5</a><a data-href="Teórico 11#^1746f5" href="Functional Analysis/Theory/Teórico 11.html#^1746f5" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Lemma 7</a> sucede 
+<br>Por otro lado  entonces 
+<br>Entonces  por lo tanto  continua
+<br>Ahora  y   La ultima desigualdad vale por que  
+<br>Entonces 
+<br>Ahora tomo  y tenemos 
+<br>Supongamos existe  tal que . 
+<br>Como  es abierto,  tal que 
+<br> (Por def de ) que es absurdo por 
+<br>Entonce vale 
+
+(b)
+
+<br>Como  compacto y  cerrado. Entonces 
+<br>Sean  y  (Son bolas las )
+<br>Es facil ver que  (usando desigualdad triangular)
+<br>Ademas  y  son abiertos por que son union de abiertos  
+<br>Y son convexos (Sale similas a convexidad de )
+<br>Luego vale  con  y  en lugar de  y .
+<br>Sea  entonces . Pues 
+<br>Entonces  (Recordar )
+<br>Analogamente   entonces vale 
+
+
+
+
+]]></description><link>Functional Analysis/Theory/Teórico 11.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 11.md</guid><pubDate>Mon, 07 Oct 2024 14:55:50 GMT</pubDate></item><item><title><![CDATA[Teórico 12]]></title><description><![CDATA[ 
+ <br>Definition.
+ normado es hiperplano si  con  lineal no necesariamente continuo.   y . Dados  decimos que  separa  y  sii<br>
+Y que separa estrictamente sii 
+<br>Remark.
+
+<br>El <a data-href="Teórico 11#^18a436" href="Teórico 11#^18a436" class="original-internal-link" target="_blank" rel="noopener" style="display: none;">Teórico 11 &gt; ^18a436</a><a data-href="Teórico 11#^18a436" href="Functional Analysis/Theory/Teórico 11.html#^18a436" class="internal-link mathLink-internal-link" target="_self" rel="noopener">Teorema de Separacion (DUDA)</a> dice que bajo las condiciones de  existe hiperplano que separa  y  y  bajo las condiciones  separa estrictamente
+<br>Si  o  no es convexo  del teo no es cierto
+<br>Si  no es comacto  en general no es cierto
+
+<br>Remark.
+Es equivalente llamar hiperplano a  (y en este caso decimos que pasa por ) para cierto  lineal tal que  pues sea  fijo con .<br>
+Entonces si  tenemos osea  luego .<br>
+Reciprocamente si  entonces  con  entonces  osea 
+<br>Theorem.
+ subespacio. Entonces  es hiperplano que pasa por 0 sii  y  para cualquier 
+Proof
+ 
+
+<br>Supongamos  hiperplano que pasa por . Como  existe  con  osea  ()
+<br>Sea  arbitrario entonces  para  escribo  con 
+<br>Como  entonces 
+
+
+]]></description><link>Functional Analysis/Theory/Teórico 12.html</link><guid isPermaLink="false">Functional Analysis/Theory/Teórico 12.md</guid><pubDate>Mon, 07 Oct 2024 15:58:08 GMT</pubDate></item><item><title><![CDATA[Practico 3 Funcional]]></title><description><![CDATA[ 
+ <br>Exercise.<br>Exercise.
+Sea  la función caracterstica del intervalo  Probar que  es base ortonormal de  (llamada de Gabor). Deducir que  es separable 
+Proof
+Veamos que los elementos de  son normales<br>
+Pero notemos que si  valePor lo tanto (1) vale 0. Mostrando que dichas funciones son normales<br>
+Veamos ahora que  genera . Sabemos que tenemos BON de fourier de la pinta<br>
+Y dada  vale Con<br>
+Luego Por que  se anula cuando  por definicion. Y sus coeficientes de Fourier<br>
+Finalmente tenemos<br>
+Mostrando que  genera y como ya sabias que era ortogonal entonces es BON de Hilbert<br>
+Por ultimo como  (base de Gabor) es BON y es numerable entonces<br>
+
+
+]]></description><link>Functional Analysis/Practico 3 Funcional.html</link><guid isPermaLink="false">Functional Analysis/Practico 3 Funcional.md</guid><pubDate>Tue, 01 Oct 2024 13:33:47 GMT</pubDate></item></channel></rss>
